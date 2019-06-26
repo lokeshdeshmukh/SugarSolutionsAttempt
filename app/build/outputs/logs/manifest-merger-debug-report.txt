@@ -1,0 +1,209 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.databinding:adapters:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/79763c010ab63a2608e1deea3cf942b5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/7450d7ad6aa473c4b49eeb2a1ce119b6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0b565e3d3589885d7824ea5bf04e7bea/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/09eb20c3b63cb1a58d0492f2edcf9f89/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a876fe82a205a50228d829951bd9aee8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/99c9639b7941bac479343c44e59cb42b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/e9657f7b8cf5dbddbb4dc99714069c43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0fbab73ccc1723eb6fd924b7c7ec63e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/445ba5f7da489144ee5e5bafa4220c69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/61883610f30c1d3346d6072232d0429e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/29e982539d050ecf426ad85493cdc351/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/653aeab1d91d278658e77a7131673fc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9606daf96ba9d4af20076a1dd31bb0ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/5a400c14b49568cfaa89c65dc60d230e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8e25c8aa43341018c605de74fa5ff85f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/67d67d542ce7d90e965f008791bc88a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dd5253fe0414c5a2e2d80edef4873c41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a6df184343e70f45a68e5f5a9906c159/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d40cb0f0770ea0f4a393f32036a05a7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/6d0ce1bbee17d529061269912d4108a2/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3e306566f70cd7816e8f2a47337acbf5/AndroidManifest.xml:15:1-21:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d63eba90236b40ed8757cefc5c3850d7/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/00642d86903be9d2ec9ae80065c4bf6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/15259758770261487ebb3071d942c4d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/207fc777372d855206bfd8c8840fa155/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/78d2410676ef913bac9b99a20ba54a8f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/506bd83233bf9162109cd2d39bb899ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/681821a9f94924511c5b83ea38c7862b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/477d11b9a462b5933fcaeb2195a10a76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8975a48f06840aa44f8d670dcb77a4cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/bfaae203ee79aaccd6354d530a553d3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9fdc61dbdccc83548375d7ab415e05e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/802863ca24282f81f2d31ee0bd9fc935/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support:design:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0b565e3d3589885d7824ea5bf04e7bea/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0b565e3d3589885d7824ea5bf04e7bea/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:22:5-94
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d63eba90236b40ed8757cefc5c3850d7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d63eba90236b40ed8757cefc5c3850d7/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:13:9-52
+	android:usesCleartextTraffic
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:11:9-44
+activity#com.sugar.example.activity.MainActivity
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:14:9-21:20
+	android:hardwareAccelerated
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:14:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/79763c010ab63a2608e1deea3cf942b5/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/79763c010ab63a2608e1deea3cf942b5/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/7450d7ad6aa473c4b49eeb2a1ce119b6/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/7450d7ad6aa473c4b49eeb2a1ce119b6/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0b565e3d3589885d7824ea5bf04e7bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0b565e3d3589885d7824ea5bf04e7bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/09eb20c3b63cb1a58d0492f2edcf9f89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/09eb20c3b63cb1a58d0492f2edcf9f89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a876fe82a205a50228d829951bd9aee8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a876fe82a205a50228d829951bd9aee8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/99c9639b7941bac479343c44e59cb42b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/99c9639b7941bac479343c44e59cb42b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/e9657f7b8cf5dbddbb4dc99714069c43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/e9657f7b8cf5dbddbb4dc99714069c43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0fbab73ccc1723eb6fd924b7c7ec63e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/0fbab73ccc1723eb6fd924b7c7ec63e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/445ba5f7da489144ee5e5bafa4220c69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/445ba5f7da489144ee5e5bafa4220c69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/61883610f30c1d3346d6072232d0429e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/61883610f30c1d3346d6072232d0429e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/29e982539d050ecf426ad85493cdc351/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/29e982539d050ecf426ad85493cdc351/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/653aeab1d91d278658e77a7131673fc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/653aeab1d91d278658e77a7131673fc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9606daf96ba9d4af20076a1dd31bb0ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9606daf96ba9d4af20076a1dd31bb0ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/5a400c14b49568cfaa89c65dc60d230e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/5a400c14b49568cfaa89c65dc60d230e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8e25c8aa43341018c605de74fa5ff85f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8e25c8aa43341018c605de74fa5ff85f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/67d67d542ce7d90e965f008791bc88a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/67d67d542ce7d90e965f008791bc88a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dd5253fe0414c5a2e2d80edef4873c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dd5253fe0414c5a2e2d80edef4873c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a6df184343e70f45a68e5f5a9906c159/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/a6df184343e70f45a68e5f5a9906c159/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d40cb0f0770ea0f4a393f32036a05a7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d40cb0f0770ea0f4a393f32036a05a7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/dc9c4edd9b46f01ff7d15c14c126d78e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/6d0ce1bbee17d529061269912d4108a2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/6d0ce1bbee17d529061269912d4108a2/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3e306566f70cd7816e8f2a47337acbf5/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3e306566f70cd7816e8f2a47337acbf5/AndroidManifest.xml:19:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d63eba90236b40ed8757cefc5c3850d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/d63eba90236b40ed8757cefc5c3850d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/00642d86903be9d2ec9ae80065c4bf6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/00642d86903be9d2ec9ae80065c4bf6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/15259758770261487ebb3071d942c4d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/15259758770261487ebb3071d942c4d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/207fc777372d855206bfd8c8840fa155/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/207fc777372d855206bfd8c8840fa155/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/78d2410676ef913bac9b99a20ba54a8f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/78d2410676ef913bac9b99a20ba54a8f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/506bd83233bf9162109cd2d39bb899ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/506bd83233bf9162109cd2d39bb899ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/681821a9f94924511c5b83ea38c7862b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/681821a9f94924511c5b83ea38c7862b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/477d11b9a462b5933fcaeb2195a10a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/477d11b9a462b5933fcaeb2195a10a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8975a48f06840aa44f8d670dcb77a4cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/8975a48f06840aa44f8d670dcb77a4cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/bfaae203ee79aaccd6354d530a553d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/bfaae203ee79aaccd6354d530a553d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9fdc61dbdccc83548375d7ab415e05e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/9fdc61dbdccc83548375d7ab415e05e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/802863ca24282f81f2d31ee0bd9fc935/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/loke09/.gradle/caches/transforms-2/files-2.1/802863ca24282f81f2d31ee0bd9fc935/AndroidManifest.xml:20:5-44
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/loke09/Downloads/Retrofit/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/loke09/.gradle/caches/transforms-2/files-2.1/de5b87f9b0cee9553c2bc95e1ef48482/AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/loke09/.gradle/caches/transforms-2/files-2.1/3662db2f6cf40a979dfb0a59895218e8/AndroidManifest.xml:9:13-64
