@@ -6,13 +6,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.Transformation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.sugar.example.R;
+import com.sugar.example.Utils.Utils;
 import com.sugar.example.activity.MainActivity;
 
 import java.util.ArrayList;
@@ -25,7 +24,7 @@ public class ShowProductAdapter extends RecyclerView.Adapter<ShowProductAdapter.
     private Context context;
     private MainActivity instance;
     private ArrayList<String> keys=new ArrayList<>();
-
+    private Utils utilsObj=new Utils();
 
     public static class MovieViewHolder extends RecyclerView.ViewHolder {
         LinearLayout moviesLayout;
@@ -77,11 +76,13 @@ public class ShowProductAdapter extends RecyclerView.Adapter<ShowProductAdapter.
             public void onClick(View v) {
                 if (childProductObject.visibleItemSpecified) {
                     childProductObject.visibleItemSpecified = false;
-                    resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()*2);
+                    utilsObj.resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()*2);
+                    utilsObj.rorate_Clockwise(holder.expand_arrow);
                 }
                 else {
                     childProductObject.visibleItemSpecified = true;
-                    resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()/2);
+                    utilsObj.resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()/2);
+                    utilsObj.rorate_AntiClockwise(holder.expand_arrow);
                 }
 
 
@@ -94,32 +95,7 @@ public class ShowProductAdapter extends RecyclerView.Adapter<ShowProductAdapter.
 
 
     }
-    private void resizeWithAnimation(final View view, int duration, final int targetHeight) {
-        final int initialHeight = view.getMeasuredHeight();
-        final int distance = targetHeight - initialHeight;
 
-        view.setVisibility(View.VISIBLE);
-
-        Animation a = new Animation() {
-            @Override
-            protected void applyTransformation(float interpolatedTime, Transformation t) {
-                if (interpolatedTime == 1 && targetHeight == 0) {
-                    view.setVisibility(View.GONE);
-                } else {
-                    view.getLayoutParams().height = (int) (initialHeight + distance * interpolatedTime);
-                    view.requestLayout();
-                }
-            }
-
-            @Override
-            public boolean willChangeBounds() {
-                return true;
-            }
-        };
-
-        a.setDuration(duration);
-        view.startAnimation(a);
-    }
     @Override
     public int getItemCount() {
         return categoryData.size();
