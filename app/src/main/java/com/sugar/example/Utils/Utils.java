@@ -11,29 +11,13 @@ import java.util.TimeZone;
 
 public class Utils {
 
-    public static String formatDate(String dateString) {
-
-
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-        sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
-
-        try {
-            SimpleDateFormat outputFormat = new SimpleDateFormat("MMM dd,yyyy");
-            return outputFormat.format(sdf.parse(dateString));
-
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return "";
-
-    }
-    public void rorate_Clockwise(View view) {
+    public void rorateClockwise(View view) {
         ObjectAnimator rotate = ObjectAnimator.ofFloat(view, "rotation", 0f, 180f);
         rotate.setDuration(500);
         rotate.start();
     }
 
-    public void rorate_AntiClockwise(View view) {
+    public void rorateAntiClockwise(View view) {
         ObjectAnimator rotate = ObjectAnimator.ofFloat(view, "rotation", 180f, 0f);
         rotate.setDuration(500);
         rotate.start();

@@ -14,8 +14,8 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.movies_recycler_view, 1);
-        sViewsWithIds.put(R.id.fragment_container, 2);
+        sViewsWithIds.put(R.id.movies_recycler_view, 2);
+        sViewsWithIds.put(R.id.fragment_container, 3);
     }
     // views
     @NonNull
@@ -26,13 +26,15 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.FrameLayout) bindings[2]
-            , (android.support.v7.widget.RecyclerView) bindings[1]
+            , (android.widget.TextView) bindings[1]
+            , (android.widget.FrameLayout) bindings[3]
+            , (android.support.v7.widget.RecyclerView) bindings[2]
             );
+        this.errorMsg.setTag(null);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
@@ -75,6 +77,11 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
 
     public void setDataObject(@Nullable com.sugar.example.model.pojo.TypeOfProducts DataObject) {
         this.mDataObject = DataObject;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.dataObject);
+        super.requestRebind();
     }
     public void setActivity(@Nullable com.sugar.example.activity.MainActivity Activity) {
         this.mActivity = Activity;
@@ -94,7 +101,24 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        com.sugar.example.model.pojo.TypeOfProducts dataObject = mDataObject;
+        java.lang.String dataObjectErrorMsg = null;
+
+        if ((dirtyFlags & 0x5L) != 0) {
+
+
+
+                if (dataObject != null) {
+                    // read dataObject.errorMsg
+                    dataObjectErrorMsg = dataObject.getErrorMsg();
+                }
+        }
         // batch finished
+        if ((dirtyFlags & 0x5L) != 0) {
+            // api target 1
+
+            android.databinding.adapters.TextViewBindingAdapter.setText(this.errorMsg, dataObjectErrorMsg);
+        }
     }
     // Listener Stub Implementations
     // callback impls

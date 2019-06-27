@@ -35,8 +35,8 @@ public class ShowProductAdapter extends RecyclerView.Adapter<ShowProductAdapter.
 
         public MovieViewHolder(View v) {
             super(v);
-            moviesLayout = (LinearLayout) v.findViewById(R.id.movies_layout);
-            recyclerView = (RecyclerView) v.findViewById(R.id.child_recycler_view);
+            moviesLayout =  v.findViewById(R.id.movies_layout);
+            recyclerView =  v.findViewById(R.id.child_recycler_view);
             expand_arrow = v.findViewById(R.id.expand_arrow);
             categoryTitle=v.findViewById(R.id.categoryTitle);
         }
@@ -77,16 +77,16 @@ public class ShowProductAdapter extends RecyclerView.Adapter<ShowProductAdapter.
                 if (childProductObject.visibleItemSpecified) {
                     childProductObject.visibleItemSpecified = false;
                     utilsObj.resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()*2);
-                    utilsObj.rorate_Clockwise(holder.expand_arrow);
+                    utilsObj.rorateClockwise(holder.expand_arrow);
                 }
                 else {
                     childProductObject.visibleItemSpecified = true;
                     utilsObj.resizeWithAnimation(holder.itemView, 500, holder.itemView.getHeight()/2);
-                    utilsObj.rorate_AntiClockwise(holder.expand_arrow);
+                    utilsObj.rorateAntiClockwise(holder.expand_arrow);
                 }
 
 
-                    //childProductObject.notifyDataSetChanged();
+                    childProductObject.notifyDataSetChanged();
 
 
             }

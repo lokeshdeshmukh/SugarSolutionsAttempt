@@ -779,6 +779,9 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen dp_160_layout_size
+dimen dp_48_dimen
+dimen dp_64_dimen
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -789,6 +792,8 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen image_height
+dimen image_width
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -960,6 +965,7 @@ drawable design_snackbar_background
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable imageloading
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -976,7 +982,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable selected_viewpagercircle
-drawable settings
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable unselected_viewpagercircle
@@ -1020,7 +1025,6 @@ id categoryTitle
 id center
 id center_horizontal
 id center_vertical
-id changeQuality
 id checkbox
 id child_recycler_view
 id chronometer
@@ -1047,6 +1051,7 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id errorMsg
 id exitUntilCollapsed
 id expand_activities_button
 id expand_arrow
@@ -1078,6 +1083,9 @@ id line1
 id line3
 id listMode
 id list_item
+id main_appbar
+id main_collapsing
+id main_toolbar
 id masked
 id message
 id middle
@@ -1181,7 +1189,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id videoPlayer
 id view_offset_helper
 id visible
 id withText
@@ -1264,7 +1271,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-layout videoplayer
 mipmap ic_launcher
 raw sample
 string abc_action_bar_home_description

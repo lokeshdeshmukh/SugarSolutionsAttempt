@@ -41,7 +41,7 @@ public  class ViewPagerAdapter extends PagerAdapter {
             View itemView = mLayoutInflater.inflate(R.layout.pager_item, container, false);
 
             ImageView imageView = (ImageView) itemView.findViewById(R.id.imageView);
-            Picasso.get().load("https://cdn.shopify.com/s/files/1/0906/2558/products/BTWGW02_01-compressor.png?v=1543578611").resize(400,400).into(imageView);
+            Picasso.get().load("https://cdn.shopify.com/s/files/1/0906/2558/products/BTWGW02_01-compressor.png?v=1543578611").into(imageView);
 
 //            Picasso.get().load(viewPagerUrl.get(position).getUrlImage()).resize(400,400).into(imageView);
 

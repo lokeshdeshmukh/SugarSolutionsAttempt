@@ -52,6 +52,7 @@ public class MainActivityViewModel extends ViewModel {
             public void onFailure(Call<TypeOfProducts> call, Throwable t) {
                 // Log error here since request failed
                 Log.e(TAG, t.toString());
+                mainResponse.setValue(null);
             }
         });
 

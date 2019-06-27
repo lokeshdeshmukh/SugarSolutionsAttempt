@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/loke09/Downloads/Retrofit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/Jitanshu/Downloads/SugarSolutionsAttempt/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/loke09/Downloads/Retrofit/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/Jitanshu/Downloads/SugarSolutionsAttempt/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "291",
-                        "endColumns": "57",
-                        "endOffsets": "344"
+                        "startLines": "-1,-1,-1,-1,-1,11,12,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,629,674,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,44,43,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,669,713,-1,-1"
                     },
                     "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,220,263,306,351,395,439",
+                        "endColumns": "57,55,50,42,42,44,43,43,42",
+                        "endOffsets": "108,164,215,258,301,346,390,434,477"
                     }
                 }
             ]

@@ -1,8 +1,10 @@
 package com.sugar.example.Fragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.text.Html;
@@ -24,6 +26,7 @@ public class ShowMoreDetails extends Fragment {
     private LinearLayout llPagerDots;
     private ImageView[] ivArrayDotsPager;
     ViewPager viewPager;
+    CollapsingToolbarLayout collapsingToolbarLayout;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,12 +40,16 @@ public class ShowMoreDetails extends Fragment {
         object=this.getArguments().getParcelable("data");
         this.view=view;
         initialSetup();
+
     }
     void initialSetup()
     {
         viewPager = view.findViewById(R.id.productImageViewPager);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getContext(),object.getImages());
         llPagerDots = (LinearLayout) view.findViewById(R.id.pager_dots);
+        collapsingToolbarLayout=view.findViewById(R.id.main_collapsing);
+        collapsingToolbarLayout.setExpandedTitleColor(Color.TRANSPARENT);
+        collapsingToolbarLayout.setTitle(object.getTitle());
 
         titleText=view.findViewById(R.id.titleText);
         descText=view.findViewById(R.id.descText);
@@ -101,4 +108,9 @@ public class ShowMoreDetails extends Fragment {
         });
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        viewPager.setAdapter(null);
+    }
 }

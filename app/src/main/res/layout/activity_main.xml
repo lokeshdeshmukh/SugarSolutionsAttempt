@@ -2,38 +2,47 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <variable name="dataObject"
+
+        <variable
+            name="dataObject"
             type="com.sugar.example.model.pojo.TypeOfProducts" />
-        <variable name="activity" type="com.sugar.example.activity.MainActivity" />
+
+        <variable
+            name="activity"
+            type="com.sugar.example.activity.MainActivity" />
     </data>
-<RelativeLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorWhiteLight"
-    tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
 
-
-
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/movies_recycler_view"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:minHeight="60dp"
-                android:scrollbars="vertical"
-                android:background="@color/colorWhiteLight"/>
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
+        android:layout_height="match_parent"
+        android:background="@color/colorWhiteLight"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
 
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/movies_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhiteLight"
+            android:minHeight="60dp"
+            android:scrollbars="vertical" />
 
-</RelativeLayout>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <TextView
+            android:id="@+id/errorMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@{dataObject.errorMsg}"
+            android:textColor="@color/colorBlack" />
+
+    </RelativeLayout>
 
 
 </layout>

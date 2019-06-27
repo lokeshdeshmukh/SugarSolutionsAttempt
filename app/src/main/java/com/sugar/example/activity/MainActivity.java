@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.MenuItem;
 
 import com.sugar.example.R;
 import com.sugar.example.adapter.ShowProductAdapter;
@@ -22,7 +23,6 @@ public class MainActivity extends AppCompatActivity  {
     ProgressDialog progressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
 
         ApiClient.context=this;
@@ -37,22 +37,39 @@ public class MainActivity extends AppCompatActivity  {
         model = ViewModelProviders.of(this).get(MainActivityViewModel.class);
 
         model.getMainResponse().observe(this, fruitlist -> {
-
-            recyclerView.setAdapter(new ShowProductAdapter(fruitlist.get(0), R.layout.product_parent_item_view, getApplicationContext(), MainActivity.this));
             progressDialog.dismiss();
+            if(fruitlist==null){
+                binding.errorMsg.setText("No Internet Connection");
+                return;
+            }
+            recyclerView.setAdapter(new ShowProductAdapter(fruitlist.get(0), R.layout.product_parent_item_view, getApplicationContext(), MainActivity.this));
+
         });
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
     }
 
     void initProgressBar(){
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading..."); // Setting Message
-        progressDialog.setTitle("ProgressDialog"); // Setting Title
+        progressDialog.setTitle("Please Wait"); // Setting Title
         progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER); // Progress Dialog Style Spinner
         progressDialog.show(); // Display Progress Dialog
         progressDialog.setCancelable(false);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home) {
+
+            onBackPressed();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

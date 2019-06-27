@@ -1,4 +1,4 @@
-#Thu Jun 27 04:29:25 IST 2019
-base.0=/Users/loke09/Downloads/Retrofit/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Jun 27 14:32:19 IST 2019
+base.0=/Users/Jitanshu/Downloads/SugarSolutionsAttempt/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

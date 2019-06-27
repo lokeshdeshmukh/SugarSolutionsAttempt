@@ -2,12 +2,14 @@ package com.sugar.example.adapter;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -20,6 +22,7 @@ import com.sugar.example.model.pojo.Products;
 import com.sugar.example.rest.ApiClient;
 import com.sugar.example.rest.ApiInterface;
 
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 import retrofit2.Call;
@@ -34,11 +37,10 @@ public class ChildProductAdapter extends RecyclerView.Adapter<ChildProductAdapte
     private Context context;
     private MainActivity instance;
     public Boolean visibleItemSpecified=true;
-    ArrayList<ProductDetails> temp = new ArrayList<>();
 
 
     public static class MovieViewHolder extends RecyclerView.ViewHolder {
-        RelativeLayout moviesLayout;
+        LinearLayout moviesLayout;
         TextView productName;
         ImageView imageTile;
         ProductDetails value;
@@ -84,7 +86,7 @@ public class ChildProductAdapter extends RecyclerView.Adapter<ChildProductAdapte
                         public void onResponse(Call<Products> call, Response<Products> response) {
 
 
-                            Picasso.get().load("https://cdn.shopify.com/s/files/1/0906/2558/products/BTWGW02_01-compressor.png?v=1543578611").resize(440, 440).into(holder.imageTile);
+                            Picasso.get().load("https://cdn.shopify.com/s/files/1/0906/2558/products/BTWGW02_01-compressor.png?v=1543578611").into(holder.imageTile);
                             holder.productName.setText(response.body().getProducts().get(0).getTitle());
                             holder.value = response.body().getProducts().get(0);
                         }
@@ -119,5 +121,6 @@ public class ChildProductAdapter extends RecyclerView.Adapter<ChildProductAdapte
 
 
     }
+
 
 }

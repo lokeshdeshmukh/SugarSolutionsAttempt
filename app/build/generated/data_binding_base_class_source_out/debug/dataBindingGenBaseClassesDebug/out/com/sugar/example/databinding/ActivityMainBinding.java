@@ -10,12 +10,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import com.sugar.example.activity.MainActivity;
 import com.sugar.example.model.pojo.TypeOfProducts;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
+  @NonNull
+  public final TextView errorMsg;
+
   @NonNull
   public final FrameLayout fragmentContainer;
 
@@ -29,8 +33,9 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   protected MainActivity mActivity;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      FrameLayout fragmentContainer, RecyclerView moviesRecyclerView) {
+      TextView errorMsg, FrameLayout fragmentContainer, RecyclerView moviesRecyclerView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.errorMsg = errorMsg;
     this.fragmentContainer = fragmentContainer;
     this.moviesRecyclerView = moviesRecyclerView;
   }
